@@ -14,22 +14,22 @@ This repository contains all documentation for the Alternate Futures platform, i
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Start dev server
-npm run docs:dev
+pnpm run docs:dev
 
 # Generate CLI docs from cloud-cli repo
-npm run generate:cli
+pnpm run generate:cli
 
 # Generate SDK docs from cloud-sdk repo
-npm run generate:sdk
+pnpm run generate:sdk
 
 # Generate all docs
-npm run generate:all
+pnpm run generate:all
 
 # Build for production
-npm run build
+pnpm run build
 ```
 
 ## Documentation Structure
